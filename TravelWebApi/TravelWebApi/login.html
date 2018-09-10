@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <h4>Username:</h4>
+    <input type="text" id="username">
+    <h4>Password:</h4>
+    <input type="text" id="password">
+    <button onclick="authenticate()">Sign In</button>
+    <div id="showResponse"></div>
+
+
+    <h4>HotelId:</h4>
+    <input type="text" id="hotelId">
+    <button onclick="GetHotel()">GetHotel</button>
+    <div id="hotelsDiv"></div>
+
+
+    <button onclick="GetAllHotels()">GetAllHotels</button>
+
+</body>
+</html>
